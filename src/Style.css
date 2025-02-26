@@ -1,0 +1,60 @@
+
+.div-header-menu{
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  width: auto;
+}
+
+.headerMenu {
+  background-color: rgb(22, 76, 35);
+  width: 800px;
+  border-radius: 20px;
+  
+}
+
+.headerMenu .nav-item {
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  font-weight: 600;
+  margin-right: 15px;
+  font-size: 15px;
+} 
+
+.coluna-texto1 .h1-Texto-Inicial{
+margin-top: 40px;
+display: flex;
+justify-items: flex-start;
+margin-left: 80px;
+margin-bottom: 40px;
+}
+
+.coluna-texto1 {
+  margin-right: 30px;
+  margin-bottom: 100px;
+}
+
+.footerdiv {
+  padding: 5px;
+  width: auto;
+  background-color: rgb(22, 76, 35);
+  color: white;
+  margin-top: 40px; 
+
+}
+
+.header-topo {
+  background-color: rgb(22, 76, 35);
+  width: 100%;
+  color: white;
+}
+
+.fontcolorwhite {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-link {
+  color: white;
+}
+

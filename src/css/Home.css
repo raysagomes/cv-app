@@ -1,0 +1,112 @@
+.ContainerInicial{ 
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    justify-items: center;
+
+}
+.Col-1 {
+    background-color: rgb(22, 76, 35);
+    border-radius: 30px 0px 0px 30px;
+
+}
+.Col-2 {
+    background-color: rgb(26, 180, 62)!important;
+    border-radius: 0px 30px 30px 0px;
+    flex-grow: 1;
+
+}
+.Btn-signup{
+    justify-self: center;
+    padding: 10px;
+    margin-left: 80px;
+    margin-bottom: 30px;
+    background-color: rgb(22, 76, 35)!important;
+    color: white!important;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    font-weight: 500!important;
+
+}
+.H1-Inicial{
+  margin-left: 40px;
+  margin-right: 30px;
+  font-size: 30px;
+  padding: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+.H1-Inicial-sign{
+    margin-left: 40px;
+    margin-top: 80px;
+    font-size: 30px;
+    padding: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+.Container-Principal-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch; /* Faz com que ambas as colunas tenham a mesma altura */
+    width: 100%;
+    color: white;
+    font-size: medium
+    
+
+}
+
+.Container-Principal-row2{
+    font-size: medium;
+    color: white;
+    display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.Col-1, .Col-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    height: 100%; 
+    min-height: 100%;
+    padding: 20px;
+    flex: 1;
+}
+.Btn-login{
+    justify-self: center;
+    padding: 10px;
+    margin-left: 80px;
+    margin-bottom: 30px;
+    background-color: rgb(26, 180, 62)!important;
+    color: white!important;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    font-weight: 500!important;
+
+}
+.botao {
+    width: 80px;
+  
+}
+.botao2 {
+    width: 120px;
+    
+}
+
+
+  @media (max-width: 768px) {
+    .Container-Principal-row {
+      flex-direction: column;
+    }
+  
+    .Col-1, .Col-2 {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  
+    .H1-Inicial, .H1-Inicial-sign {
+      font-size: 1.5rem;
+    }
+  
+    .Btn-login, .Btn-signup {
+      width: 100%;
+    }
+  }
